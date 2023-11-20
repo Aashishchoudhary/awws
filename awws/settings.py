@@ -80,7 +80,7 @@ DATABASES = {
        'NAME': 'dbdata',
        'USER': 'aashish',
        'PASSWORD': 'aashish321',
-       'HOST': 'library.cwtqxrmasi3a.ap-south-1.rds.amazonaws.com',
+       'HOST': 'localhost',
        'PORT': '5432',
    }
 }
