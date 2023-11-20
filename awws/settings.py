@@ -124,5 +124,5 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
 import os
-MEDIA_ROOT =../../../newvol
+MEDIA_ROOT ='../../../newvol'
 MEDIA_URL = '/media/' # 'http://myhost:port/media/
