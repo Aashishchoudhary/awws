@@ -77,7 +77,7 @@ WSGI_APPLICATION = 'awws.wsgi.application'
 DATABASES = {
       'default': {
        'ENGINE': 'django.db.backends.postgresql',
-       'NAME': 'library',
+       'NAME': 'libdb',
        'USER': 'aashish',
        'PASSWORD': 'aashish321',
        'HOST': 'library.cwtqxrmasi3a.ap-south-1.rds.amazonaws.com',
