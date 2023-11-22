@@ -76,9 +76,13 @@ WSGI_APPLICATION = 'awws.wsgi.application'
 
 DATABASES = {
       'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-      }
+       'ENGINE': 'django.db.backends.postgresql',
+       'NAME': 'library',
+       'USER': 'aashish',
+       'PASSWORD': 'aashish321',
+       'HOST': 'library.cwtqxrmasi3a.ap-south-1.rds.amazonaws.com',
+       'PORT': '5432',
+   }
 }
 
 # Password validation
@@ -124,5 +128,5 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
 import os
-MEDIA_ROOT ='../../../../newvol'
+MEDIA_ROOT ='../../../../nwvol'
 MEDIA_URL = '/media/' # 'http://myhost:port/media/
